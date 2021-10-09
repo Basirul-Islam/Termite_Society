@@ -1,0 +1,73 @@
+$body-bg:#333;
+$font-color: #fff;
+$primary-color: #008ed6;
+body {
+    background: $body-bg;
+    color: $font-color;
+}
+.navbar{
+  border-bottom: 3px solid $primary-color;
+  background: #292b2c;
+  opacity: 0.9;
+}
+
+#home-section{
+  background: url('../img/homeBack.jpg') no-repeat center top;
+  background-size: cover;
+  min-height: 600px;
+
+  .dark-overly{
+    background: rgba(0,0,0,0.7);
+    min-height: 600px;
+  }
+  .fa{
+    background: #fff;
+    color: $primary-color;
+    padding: 2px;
+    border-radius: 5px;
+  }
+}
+#gallery-section{
+  .carousel-item{
+      height: 300px;
+      width: 500px;
+    }
+    .fa{
+      background: #333;
+      color: $primary-color;
+      padding: 2px;
+      border-radius: 5px;
+    }
+   }
+#photo-grallery{
+      @media (min-width: 668px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 80%; } }
+
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+}
+#notice-section{
+  .fa{
+    color:#333;
+    padding: 2px;
+    border-radius: 5px;
+  }
+}
+#Adminstrator{
+  img{
+    margin-top: -50px;
+  }
+  .card:hover{
+    background: #5bc0de;
+    color: #fff;
+    .fa{
+      color: #fff;
+    }
+  }
+  .fa{
+    font-size: 10px;
+  }
+}
